@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Internship.Training", "Internship.Training\Internship.Training.csproj", "{960C9099-CD66-4F1F-B215-9B2A0C4E0FB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EMS", "EMS\EMS.csproj", "{A18761F1-B730-4E53-ABE4-4E1FEF07C67D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{960C9099-CD66-4F1F-B215-9B2A0C4E0FB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{960C9099-CD66-4F1F-B215-9B2A0C4E0FB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{960C9099-CD66-4F1F-B215-9B2A0C4E0FB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A18761F1-B730-4E53-ABE4-4E1FEF07C67D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A18761F1-B730-4E53-ABE4-4E1FEF07C67D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A18761F1-B730-4E53-ABE4-4E1FEF07C67D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A18761F1-B730-4E53-ABE4-4E1FEF07C67D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
