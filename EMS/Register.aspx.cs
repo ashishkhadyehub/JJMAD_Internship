@@ -19,6 +19,7 @@ namespace EMS
 
         protected void btnSave_Click(object sender, EventArgs e)
         {
+            //first check if the user is already exists
             con.Close();
             SqlCommand cmd = new SqlCommand("insert into Employees values (@name,@contact,@email,@dept,@pwd)", con);
             cmd.Parameters.AddWithValue("@name", txtName.Text);
